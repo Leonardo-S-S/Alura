@@ -8,7 +8,7 @@ body{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
-    height: 100vh;
+
 }
 
 .apresentacao{
@@ -51,6 +51,11 @@ div{
     justify-content: space-between;
 }
 
+img{
+    max-width: 550px;
+    max-height: 550px;
+}
+
 a{
     padding: 20px 0px;
     border-radius: 5px;
@@ -71,5 +76,13 @@ a{
     a:hover{
         background-color: #18c3e9;
     }
+.rodape{
+    background-color: #22d4fd;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-variant: small-caps;
+    margin: 0;
 
+}
 

@@ -6,7 +6,7 @@
 }
 
 :root{
-    --cor-1: black;
+    --cor-1: #000000;
     --cor-2: #22D4FD;
     --cor-3: #f6f6f6;
 }
@@ -33,6 +33,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
  
+}
+
+.cab__link:hover{
+    color: #148ba5;
+    font-weight: bolder;
 }
 
 .titulo-destaque{
@@ -108,6 +113,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.footer01{
+    font-variant: small-caps;
+}
+
 .footer1{
     text-decoration: none;
     color: var(--cor-1);
@@ -115,12 +124,21 @@ body{
 
 .footer1:hover{
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: wavy;
 }
 
 @media (max-width: 1200px){
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5% 5%;
+    }
+
+    .cabecalho1{
+        padding: 5%;
+        
+    }
+
+    .cabecalho2{
+        justify-content: center;
     }
 }
